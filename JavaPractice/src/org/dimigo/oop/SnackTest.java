@@ -28,7 +28,10 @@ public class SnackTest {
 				new Snack("콘칲","크라운",1200,1),
 				new Snack("허니버터칩","해태",1500,4)
 		};
+		
+		
 		int sum = 0;
+		
 		for(Snack snack:snackArr) {
 			snack.printSnack();
 			System.out.println();
